@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#comprarTickets{
+    color: chartreuse;
+}
+
+.container-flex{
+    background-image: url(../img/baires/ba1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.sombra{
+    background-color: rgba(0, 0, 0, 0.575);
+    width: 100%;
+    height: 100%;
+}
+
+.principal{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.texto-informativo{
+    color: aliceblue;
+    width: 50%;
+    margin-bottom: 20vh;
+    text-align: right;
+}
+
+
+
+.boton-xl{
+    background-color: rgb(115, 182, 48);
+    border-radius: 10px;
+}
+
+.pie-de-pagina {
+    background-image:linear-gradient(to right, #0c2c3f, #4486bd);
+}
+
